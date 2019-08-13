@@ -1,0 +1,140 @@
+         1610758 function calls (1149872 primitive calls) in 1.351 seconds
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.580    0.580    1.351    1.351 {built-in method mypyc_black.format_str}
+    21772    0.186    0.000    0.312    0.000 {method 'addtoken' of 'Parser' objects}
+        1    0.073    0.073    0.502    0.502 driver.py:44(parse_tokens)
+   118602    0.060    0.000    0.126    0.000 pytree.py:411(convert)
+    23407    0.052    0.000    0.097    0.000 tokenize.py:337(generate_tokens)
+286035/33876    0.051    0.000    0.054    0.000 pytree.py:267(pre_order)
+199362/25656    0.042    0.000    0.046    0.000 pytree.py:182(leaves)
+    22025    0.039    0.000    0.039    0.000 {method 'match' of 're.Pattern' objects}
+86023/51748    0.028    0.000    0.028    0.000 pytree.py:135(changed)
+    50771    0.023    0.000    0.028    0.000 pytree.py:367(__unicode__)
+    12394    0.023    0.000    0.025    0.000 pytree.py:209(__init__)
+    10135    0.020    0.000    0.026    0.000 pytree.py:322(update_sibling_maps)
+    24768    0.019    0.000    0.019    0.000 pytree.py:341(__init__)
+    48996    0.019    0.000    0.046    0.000 pytree.py:406(prefix)
+   139630    0.017    0.000    0.017    0.000 pytree.py:399(prefix)
+    23862    0.017    0.000    0.046    0.000 pytree.py:169(prev_sibling)
+    37162    0.013    0.000    0.013    0.000 {built-in method __new__ of type object at 0x1098a6830}
+    37162    0.011    0.000    0.024    0.000 pytree.py:50(__new__)
+    93827    0.009    0.000    0.009    0.000 {built-in method builtins.id}
+102976/102934    0.008    0.000    0.008    0.000 {built-in method builtins.len}
+    21773    0.007    0.000    0.011    0.000 __init__.py:1361(debug)
+    23452    0.006    0.000    0.006    0.000 {method 'endswith' of 'str' objects}
+    12393    0.005    0.000    0.008    0.000 pytree.py:22(type_repr)
+    21773    0.004    0.000    0.004    0.000 __init__.py:1619(isEnabledFor)
+    49694    0.004    0.000    0.004    0.000 pytree.py:388(leaves)
+     1359    0.004    0.000    0.006    0.000 pytree.py:142(remove)
+    15146    0.003    0.000    0.003    0.000 pytree.py:318(invalidate_sibling_maps)
+    45232    0.003    0.000    0.003    0.000 pytree.py:395(pre_order)
+    20958    0.003    0.000    0.003    0.000 {method 'span' of 're.Match' objects}
+    12393    0.003    0.000    0.003    0.000 {method 'setdefault' of 'dict' objects}
+    17096    0.002    0.000    0.002    0.000 {method 'isidentifier' of 'str' objects}
+2740/2405    0.002    0.000    0.003    0.000 pytree.py:273(prefix)
+     1945    0.002    0.000    0.005    0.000 re.py:271(_compile)
+     3975    0.002    0.000    0.002    0.000 {method 'readline' of '_io.StringIO' objects}
+      798    0.002    0.000    0.002    0.000 driver.py:125(_partially_consume_prefix)
+     2556    0.002    0.000    0.002    0.000 re.py:307(_subx)
+2435/2180    0.001    0.000    0.005    0.000 pytree.py:282(prefix)
+     1376    0.001    0.000    0.002    0.000 pytree.py:298(insert_child)
+      900    0.001    0.000    0.001    0.000 pytree.py:156(next_sibling)
+     1376    0.001    0.000    0.001    0.000 {method 'insert' of 'list' objects}
+     2177    0.001    0.000    0.001    0.000 {built-in method builtins.isinstance}
+      640    0.000    0.000    0.001    0.000 types.py:164(__get__)
+     1305    0.000    0.000    0.003    0.000 re.py:232(compile)
+      576    0.000    0.000    0.003    0.000 re.py:170(match)
+     29/6    0.000    0.000    0.001    0.000 sre_parse.py:475(_parse)
+     2001    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+      798    0.000    0.000    0.000    0.000 {method 'pop' of 'list' objects}
+  449/445    0.000    0.000    0.000    0.000 pytree.py:55(__eq__)
+      419    0.000    0.000    0.000    0.000 pytree.py:252(_eq)
+      640    0.000    0.000    0.000    0.000 enum.py:628(value)
+      360    0.000    0.000    0.000    0.000 sre_parse.py:233(__next)
+       64    0.000    0.000    0.000    0.000 {method 'findall' of 're.Pattern' objects}
+      857    0.000    0.000    0.000    0.000 {method 'join' of 'str' objects}
+     38/6    0.000    0.000    0.000    0.000 sre_compile.py:71(_compile)
+     11/5    0.000    0.000    0.000    0.000 sre_compile.py:461(_get_literal_prefix)
+       55    0.000    0.000    0.000    0.000 sre_parse.py:1036(expand_template)
+    51/19    0.000    0.000    0.000    0.000 sre_parse.py:174(getwidth)
+      315    0.000    0.000    0.000    0.000 sre_parse.py:254(get)
+      186    0.000    0.000    0.000    0.000 sre_parse.py:164(__getitem__)
+     23/6    0.000    0.000    0.001    0.000 sre_parse.py:417(_parse_sub)
+      145    0.000    0.000    0.000    0.000 {method 'rstrip' of 'str' objects}
+       64    0.000    0.000    0.001    0.000 re.py:215(findall)
+        6    0.000    0.000    0.001    0.000 sre_compile.py:759(compile)
+        1    0.000    0.000    0.502    0.502 driver.py:117(parse_string)
+        4    0.000    0.000    0.000    0.000 sre_parse.py:951(parse_template)
+       96    0.000    0.000    0.000    0.000 enum.py:610(__hash__)
+       55    0.000    0.000    0.000    0.000 re.py:313(filter)
+        6    0.000    0.000    0.000    0.000 sre_compile.py:536(_compile_info)
+       93    0.000    0.000    0.000    0.000 sre_parse.py:249(match)
+        6    0.000    0.000    0.001    0.000 sre_parse.py:919(parse)
+        1    0.000    0.000    1.351    1.351 {built-in method builtins.exec}
+       55    0.000    0.000    0.000    0.000 sre_parse.py:286(tell)
+      141    0.000    0.000    0.000    0.000 {method 'end' of 're.Match' objects}
+        6    0.000    0.000    0.000    0.000 enum.py:836(__and__)
+       93    0.000    0.000    0.000    0.000 {built-in method builtins.min}
+       42    0.000    0.000    0.000    0.000 sre_parse.py:111(__init__)
+       13    0.000    0.000    0.000    0.000 sre_parse.py:84(opengroup)
+       57    0.000    0.000    0.000    0.000 sre_parse.py:172(append)
+       10    0.000    0.000    0.000    0.000 sre_parse.py:224(__init__)
+       17    0.000    0.000    0.000    0.000 pytree.py:308(append_child)
+       75    0.000    0.000    0.000    0.000 sre_parse.py:160(__len__)
+       36    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+        5    0.000    0.000    0.000    0.000 sre_compile.py:492(_get_charset_prefix)
+       55    0.000    0.000    0.000    0.000 {method 'group' of 're.Match' objects}
+        6    0.000    0.000    0.000    0.000 sre_compile.py:598(_code)
+        8    0.000    0.000    0.000    0.000 sre_parse.py:408(_uniq)
+       12    0.000    0.000    0.000    0.000 enum.py:526(__new__)
+       25    0.000    0.000    0.000    0.000 sre_compile.py:65(_combine_flags)
+       12    0.000    0.000    0.000    0.000 enum.py:284(__call__)
+       13    0.000    0.000    0.000    0.000 sre_parse.py:96(closegroup)
+        6    0.000    0.000    0.000    0.000 sre_parse.py:903(fix_flags)
+       18    0.000    0.000    0.000    0.000 {method 'strip' of 'str' objects}
+       96    0.000    0.000    0.000    0.000 {built-in method builtins.hash}
+        6    0.000    0.000    0.000    0.000 {built-in method _sre.compile}
+        1    0.000    0.000    0.000    0.000 sre_compile.py:276(_optimize_charset)
+       38    0.000    0.000    0.000    0.000 sre_parse.py:81(groups)
+       12    0.000    0.000    0.000    0.000 sre_parse.py:343(_escape)
+        4    0.000    0.000    0.000    0.000 re.py:297(_compile_repl)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:411(_mk_bitmap)
+        6    0.000    0.000    0.000    0.000 sre_parse.py:76(__init__)
+        9    0.000    0.000    0.000    0.000 sre_parse.py:168(__setitem__)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:416(parent)
+       12    0.000    0.000    0.000    0.000 sre_compile.py:595(isstring)
+        6    0.000    0.000    0.000    0.000 sre_parse.py:960(addgroup)
+        1    0.000    0.000    1.351    1.351 profiling.py:37(test_black)
+        1    0.000    0.000    0.000    0.000 __init__.py:1221(getLogger)
+        1    0.000    0.000    0.000    0.000 {method 'setup' of 'Parser' objects}
+        5    0.000    0.000    0.000    0.000 {method 'find' of 'bytearray' objects}
+        2    0.000    0.000    0.000    0.000 __init__.py:212(_acquireLock)
+        8    0.000    0.000    0.000    0.000 enum.py:355(<genexpr>)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:413(<listcomp>)
+        7    0.000    0.000    0.000    0.000 sre_compile.py:423(_simple)
+        1    0.000    0.000    1.351    1.351 <string>:1(<module>)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1009(_handle_fromlist)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:249(_compile_charset)
+        1    0.000    0.000    0.000    0.000 driver.py:32(__init__)
+        8    0.000    0.000    0.000    0.000 {method 'extend' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.hasattr}
+       17    0.000    0.000    0.000    0.000 {built-in method builtins.ord}
+        1    0.000    0.000    0.000    0.000 __init__.py:1930(getLogger)
+        1    0.000    0.000    0.000    0.000 enum.py:354(__iter__)
+       16    0.000    0.000    0.000    0.000 sre_compile.py:453(_get_iscased)
+        4    0.000    0.000    0.000    0.000 sre_parse.py:295(_class_escape)
+        1    0.000    0.000    0.000    0.000 {method 'translate' of 'bytearray' objects}
+        7    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.chr}
+        2    0.000    0.000    0.000    0.000 {method 'release' of '_thread.RLock' objects}
+        2    0.000    0.000    0.000    0.000 __init__.py:221(_releaseLock)
+        1    0.000    0.000    0.000    0.000 __init__.py:1605(getEffectiveLevel)
+        1    0.000    0.000    0.000    0.000 {method 'rpartition' of 'str' objects}
+       12    0.000    0.000    0.000    0.000 {built-in method builtins.max}
+        2    0.000    0.000    0.000    0.000 {method 'acquire' of '_thread.RLock' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+

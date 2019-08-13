@@ -1,0 +1,3 @@
+[submodule "mypyc"]
+	path = mypyc
+	url = https://github.com/mypyc/mypyc

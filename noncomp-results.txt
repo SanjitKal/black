@@ -1,0 +1,300 @@
+         3280483 function calls (2675277 primitive calls) in 1.821 seconds
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+    21772    0.224    0.000    0.572    0.000 parse.py:130(addtoken)
+41830/2328    0.084    0.000    0.695    0.000 mypyc_black.py:1694(visit_default)
+    96830    0.083    0.000    0.176    0.000 parse.py:212(pop)
+    30102    0.075    0.000    0.353    0.000 mypyc_black.py:1226(append)
+    30047    0.064    0.000    0.123    0.000 mypyc_black.py:1078(mark)
+   118602    0.063    0.000    0.147    0.000 pytree.py:411(convert)
+        1    0.056    0.056    0.745    0.745 driver.py:44(parse_tokens)
+    23407    0.052    0.000    0.098    0.000 tokenize.py:337(generate_tokens)
+53579/2328    0.051    0.000    0.696    0.000 mypyc_black.py:877(visit)
+286035/33876    0.049    0.000    0.052    0.000 pytree.py:267(pre_order)
+    96829    0.047    0.000    0.056    0.000 parse.py:205(push)
+199362/25656    0.043    0.000    0.047    0.000 pytree.py:182(leaves)
+     8193    0.042    0.000    0.080    0.000 mypyc_black.py:1511(__str__)
+    18661    0.039    0.000    0.096    0.000 mypyc_black.py:1889(whitespace)
+    22025    0.039    0.000    0.039    0.000 {method 'match' of 're.Pattern' objects}
+    37163    0.029    0.000    0.029    0.000 {built-in method __new__ of type object at 0x101da1830}
+    15179    0.029    0.000    0.032    0.000 mypyc_black.py:2184(is_split_before_delimiter)
+43273/2328    0.028    0.000    0.694    0.000 mypyc_black.py:893(visit_default)
+86023/51748    0.028    0.000    0.028    0.000 pytree.py:135(changed)
+    24716    0.026    0.000    0.030    0.000 mypyc_black.py:2284(generate_comments)
+   257822    0.024    0.000    0.024    0.000 {method 'append' of 'list' objects}
+    12394    0.023    0.000    0.026    0.000 pytree.py:209(__init__)
+    50771    0.023    0.000    0.029    0.000 pytree.py:367(__unicode__)
+        1    0.023    0.023    0.074    0.074 mypyc_black.py:3320(get_features_used)
+    25254    0.023    0.000    0.062    0.000 mypyc_black.py:2800(normalize_prefix)
+    21772    0.021    0.000    0.096    0.000 parse.py:193(shift)
+    10135    0.020    0.000    0.027    0.000 pytree.py:322(update_sibling_maps)
+    48996    0.019    0.000    0.045    0.000 pytree.py:406(prefix)
+   139630    0.019    0.000    0.019    0.000 pytree.py:399(prefix)
+    24768    0.018    0.000    0.018    0.000 pytree.py:341(__init__)
+     1546    0.016    0.000    0.052    0.000 mypyc_black.py:2954(normalize_invisible_parens)
+    23862    0.016    0.000    0.045    0.000 pytree.py:169(prev_sibling)
+    21772    0.014    0.000    0.020    0.000 parse.py:178(classify)
+    36917    0.014    0.000    0.014    0.000 {built-in method builtins.getattr}
+        1    0.012    0.012    0.059    0.059 mypyc_black.py:3027(convert_one_fmt_off_pair)
+    96751    0.012    0.000    0.012    0.000 {built-in method builtins.isinstance}
+   112273    0.011    0.000    0.011    0.000 {built-in method builtins.id}
+8029/5390    0.011    0.000    0.178    0.000 mypyc_black.py:2387(split_line)
+        1    0.011    0.011    1.821    1.821 mypyc_black.py:742(format_str)
+128939/128897    0.011    0.000    0.011    0.000 {built-in method builtins.len}
+    37162    0.011    0.000    0.040    0.000 pytree.py:50(__new__)
+    97974    0.011    0.000    0.011    0.000 {method 'pop' of 'list' objects}
+    28810    0.010    0.000    0.010    0.000 mypyc_black.py:1388(maybe_remove_trailing_comma)
+    18661    0.010    0.000    0.013    0.000 mypyc_black.py:1194(get_open_lsqb)
+     2327    0.009    0.000    0.027    0.000 mypyc_black.py:1570(_maybe_empty_lines)
+    18661    0.009    0.000    0.025    0.000 mypyc_black.py:1493(is_complex_subscript)
+     9488    0.008    0.000    0.023    0.000 mypyc_black.py:2119(preceding_leaf)
+    30101    0.008    0.000    0.008    0.000 mypyc_black.py:1445(append_comment)
+    59712    0.008    0.000    0.008    0.000 {method 'get' of 'dict' objects}
+    21773    0.008    0.000    0.012    0.000 __init__.py:1361(debug)
+    29357    0.008    0.000    0.008    0.000 mypyc_black.py:1526(__bool__)
+7307/2393    0.008    0.000    0.673    0.000 mypyc_black.py:1777(visit_stmt)
+      663    0.007    0.000    0.042    0.000 mypyc_black.py:2677(delimiter_split)
+    24637    0.007    0.000    0.007    0.000 mypyc_black.py:1118(any_open_brackets)
+     2556    0.007    0.000    0.009    0.000 {method 'sub' of 're.Pattern' objects}
+    29909    0.007    0.000    0.007    0.000 mypyc_black.py:1168(maybe_increment_lambda_arguments)
+    29909    0.006    0.000    0.006    0.000 mypyc_black.py:1141(maybe_increment_for_loop_variable)
+    23932    0.006    0.000    0.006    0.000 {method 'endswith' of 'str' objects}
+     3187    0.006    0.000    0.008    0.000 mypyc_black.py:1354(contains_inner_type_comments)
+     7405    0.006    0.000    0.013    0.000 mypyc_black.py:1678(line)
+    29909    0.005    0.000    0.005    0.000 mypyc_black.py:1154(maybe_decrement_after_for_loop_variable)
+    12393    0.005    0.000    0.007    0.000 pytree.py:22(type_repr)
+      633    0.005    0.000    0.046    0.000 mypyc_black.py:2622(bracket_split_build_line)
+     3482    0.005    0.000    0.010    0.000 mypyc_black.py:1210(__init__)
+     3527    0.005    0.000    0.005    0.000 mypyc_black.py:1062(__init__)
+    29909    0.004    0.000    0.004    0.000 mypyc_black.py:1181(maybe_decrement_after_lambda_arguments)
+     9272    0.004    0.000    0.006    0.000 mypyc_black.py:1481(comments_after)
+    27615    0.004    0.000    0.004    0.000 {method 'strip' of 'str' objects}
+    21773    0.004    0.000    0.004    0.000 __init__.py:1619(isEnabledFor)
+    49694    0.004    0.000    0.004    0.000 pytree.py:388(leaves)
+    19727    0.004    0.000    0.004    0.000 mypyc_black.py:3202(is_vararg)
+1611/1454    0.004    0.000    0.321    0.000 mypyc_black.py:1724(visit_atom)
+    14061    0.004    0.000    0.004    0.000 {method 'count' of 'str' objects}
+    15146    0.004    0.000    0.004    0.000 pytree.py:318(invalidate_sibling_maps)
+    45232    0.003    0.000    0.003    0.000 pytree.py:395(pre_order)
+    20958    0.003    0.000    0.003    0.000 {method 'span' of 're.Match' objects}
+    11004    0.003    0.000    0.003    0.000 {method 'split' of 'str' objects}
+      576    0.003    0.000    0.016    0.000 mypyc_black.py:2834(normalize_string_quotes)
+    14512    0.003    0.000    0.003    0.000 mypyc_black.py:2170(is_split_after_delimiter)
+     3096    0.003    0.000    0.003    0.000 mypyc_black.py:1346(contains_standalone_comments)
+     4375    0.003    0.000    0.004    0.000 mypyc_black.py:1286(is_class)
+     3315    0.003    0.000    0.007    0.000 mypyc_black.py:3887(is_line_short_enough)
+     1359    0.003    0.000    0.005    0.000 pytree.py:142(remove)
+  846/669    0.003    0.000    0.048    0.000 mypyc_black.py:2503(right_hand_split)
+    13368    0.002    0.000    0.002    0.000 {method 'add' of 'set' objects}
+    12497    0.002    0.000    0.002    0.000 {method 'setdefault' of 'dict' objects}
+     1937    0.002    0.000    0.350    0.000 mypyc_black.py:1805(visit_simple_stmt)
+     2849    0.002    0.000    0.002    0.000 mypyc_black.py:1302(is_def)
+     2986    0.002    0.000    0.025    0.000 mypyc_black.py:1254(append_safe)
+     5399    0.002    0.000    0.002    0.000 {built-in method builtins.min}
+     5660    0.002    0.000    0.003    0.000 mypyc_black.py:1271(is_comment)
+    17096    0.002    0.000    0.002    0.000 {method 'isidentifier' of 'str' objects}
+     2327    0.002    0.000    0.029    0.000 mypyc_black.py:1558(maybe_empty_lines)
+     2743    0.002    0.000    0.003    0.000 mypyc_black.py:1276(is_decorator)
+     1945    0.002    0.000    0.004    0.000 re.py:271(_compile)
+     2480    0.002    0.000    0.004    0.000 mypyc_black.py:1281(is_import)
+     7632    0.002    0.000    0.002    0.000 {built-in method from_iterable}
+2740/2405    0.002    0.000    0.002    0.000 pytree.py:273(prefix)
+6253/2309    0.002    0.000    0.601    0.000 mypyc_black.py:1798(visit_suite)
+     3975    0.002    0.000    0.002    0.000 {method 'readline' of '_io.StringIO' objects}
+      798    0.002    0.000    0.002    0.000 driver.py:125(_partially_consume_prefix)
+     2556    0.002    0.000    0.002    0.000 re.py:307(_subx)
+     2480    0.002    0.000    0.002    0.000 mypyc_black.py:2778(is_import)
+     1376    0.001    0.000    0.002    0.000 pytree.py:298(insert_child)
+     1399    0.001    0.000    0.012    0.000 mypyc_black.py:1763(visit_DEDENT)
+     3001    0.001    0.000    0.026    0.000 mypyc_black.py:2703(append_to_line)
+     1507    0.001    0.000    0.002    0.000 mypyc_black.py:3139(unwrap_singleton_parenthesis)
+      576    0.001    0.000    0.005    0.000 mypyc_black.py:2818(normalize_string_prefix)
+     7633    0.001    0.000    0.001    0.000 {built-in method builtins.iter}
+     1410    0.001    0.000    0.002    0.000 mypyc_black.py:1321(is_class_paren_empty)
+     7683    0.001    0.000    0.001    0.000 {method 'values' of 'dict' objects}
+2435/2180    0.001    0.000    0.005    0.000 pytree.py:282(prefix)
+     1592    0.001    0.000    0.012    0.000 mypyc_black.py:1757(visit_INDENT)
+     3392    0.001    0.000    0.001    0.000 {method 'pop' of 'dict' objects}
+ 1083/489    0.001    0.000    0.073    0.000 {method 'extend' of 'list' objects}
+     7633    0.001    0.000    0.001    0.000 {built-in method builtins.next}
+      669    0.001    0.000    0.051    0.000 mypyc_black.py:2421(rhs)
+     1954    0.001    0.000    0.001    0.000 mypyc_black.py:1508(<genexpr>)
+     1423    0.001    0.000    0.002    0.000 mypyc_black.py:3175(is_walrus_assignment)
+     1278    0.001    0.000    0.009    0.000 mypyc_black.py:3838(sub_twice)
+       83    0.001    0.000    0.009    0.000 mypyc_black.py:3260(max_delimiter_priority_in_atom)
+      150    0.001    0.000    0.001    0.000 mypyc_black.py:2331(list_comments)
+  896/883    0.001    0.000    0.001    0.000 typing.py:661(__hash__)
+      843    0.001    0.000    0.002    0.000 typing.py:245(inner)
+      382    0.001    0.000    0.001    0.000 {built-in method builtins.max}
+     1423    0.001    0.000    0.001    0.000 mypyc_black.py:3159(is_one_tuple)
+      690    0.001    0.000    0.043    0.000 mypyc_black.py:2668(split_wrapper)
+     3564    0.001    0.000    0.001    0.000 {method 'items' of 'dict' objects}
+      321    0.001    0.000    0.001    0.000 mypyc_black.py:2909(normalize_numeric_literal)
+      370    0.001    0.000    0.002    0.000 mypyc_black.py:1122(max_delimiter_priority)
+      900    0.000    0.000    0.001    0.000 pytree.py:156(next_sibling)
+     1377    0.000    0.000    0.000    0.000 {method 'insert' of 'list' objects}
+      640    0.000    0.000    0.001    0.000 types.py:164(__get__)
+      576    0.000    0.000    0.003    0.000 re.py:170(match)
+      759    0.000    0.000    0.002    0.000 {built-in method builtins.any}
+      477    0.000    0.000    0.001    0.000 mypyc_black.py:3225(is_multiline_string)
+      858    0.000    0.000    0.000    0.000 {method 'join' of 'str' objects}
+      211    0.000    0.000    0.001    0.000 mypyc_black.py:3300(should_explode)
+     1305    0.000    0.000    0.002    0.000 re.py:232(compile)
+      211    0.000    0.000    0.002    0.000 mypyc_black.py:2596(bracket_split_succeeded_or_raise)
+     1375    0.000    0.000    0.000    0.000 {method 'lstrip' of 'str' objects}
+  914/829    0.000    0.000    0.243    0.000 mypyc_black.py:1836(visit_decorators)
+      208    0.000    0.000    0.001    0.000 mypyc_black.py:1609(_maybe_empty_lines_for_class_or_def)
+     1025    0.000    0.000    0.000    0.000 {method 'startswith' of 'str' objects}
+     29/6    0.000    0.000    0.001    0.000 sre_parse.py:475(_parse)
+     1207    0.000    0.000    0.000    0.000 {method 'group' of 're.Match' objects}
+     1744    0.000    0.000    0.000    0.000 mypyc_black.py:1128(<genexpr>)
+   124/84    0.000    0.000    0.010    0.000 mypyc_black.py:3101(maybe_make_parens_invisible_in_atom)
+      192    0.000    0.000    0.001    0.000 mypyc_black.py:3865(enumerate_with_length)
+      576    0.000    0.000    0.000    0.000 {method 'replace' of 'str' objects}
+      158    0.000    0.000    0.001    0.000 mypyc_black.py:2137(child_towards)
+       83    0.000    0.000    0.001    0.000 mypyc_black.py:3937(can_omit_invisible_parens)
+  993/979    0.000    0.000    0.000    0.000 {built-in method builtins.hash}
+      435    0.000    0.000    0.000    0.000 {method 'find' of 'str' objects}
+  449/445    0.000    0.000    0.000    0.000 pytree.py:55(__eq__)
+       68    0.000    0.000    0.005    0.000 mypyc_black.py:2463(left_hand_split)
+      897    0.000    0.000    0.000    0.000 {method 'lower' of 'str' objects}
+      419    0.000    0.000    0.000    0.000 pytree.py:252(_eq)
+      640    0.000    0.000    0.000    0.000 enum.py:628(value)
+      438    0.000    0.000    0.000    0.000 mypyc_black.py:3377(generate_trailers_to_omit)
+      870    0.000    0.000    0.000    0.000 {method 'casefold' of 'str' objects}
+      182    0.000    0.000    0.000    0.000 mypyc_black.py:2368(make_comment)
+      360    0.000    0.000    0.000    0.000 sre_parse.py:233(__next)
+      300    0.000    0.000    0.000    0.000 mypyc_black.py:3288(ensure_visible)
+       64    0.000    0.000    0.000    0.000 {method 'findall' of 're.Pattern' objects}
+     38/6    0.000    0.000    0.000    0.000 sre_compile.py:71(_compile)
+   128/83    0.000    0.000    0.000    0.000 mypyc_black.py:3181(is_yield)
+      182    0.000    0.000    0.000    0.000 mypyc_black.py:2324(__init__)
+       52    0.000    0.000    0.000    0.000 mypyc_black.py:1485(remove_trailing_comma)
+        1    0.000    0.000    1.821    1.821 profiling.py:37(test_black)
+       55    0.000    0.000    0.000    0.000 sre_parse.py:1036(expand_template)
+    51/19    0.000    0.000    0.000    0.000 sre_parse.py:174(getwidth)
+      186    0.000    0.000    0.000    0.000 sre_parse.py:164(__getitem__)
+      327    0.000    0.000    0.000    0.000 {method 'rstrip' of 'str' objects}
+      315    0.000    0.000    0.000    0.000 sre_parse.py:254(get)
+      321    0.000    0.000    0.000    0.000 mypyc_black.py:2945(format_float_or_int_string)
+     23/6    0.000    0.000    0.001    0.000 sre_parse.py:417(_parse_sub)
+       51    0.000    0.000    0.000    0.000 mypyc_black.py:1130(delimiter_count_with_priority)
+      582    0.000    0.000    0.000    0.000 {method 'reverse' of 'list' objects}
+       26    0.000    0.000    0.000    0.000 typing.py:741(__getitem__)
+       46    0.000    0.000    0.003    0.000 mypyc_black.py:1744(visit_factor)
+       84    0.000    0.000    0.000    0.000 mypyc_black.py:3129(is_empty_tuple)
+        1    0.000    0.000    0.745    0.745 driver.py:117(parse_string)
+       51    0.000    0.000    0.000    0.000 {built-in method builtins.sum}
+       55    0.000    0.000    0.000    0.000 re.py:313(filter)
+       64    0.000    0.000    0.001    0.000 re.py:215(findall)
+        6    0.000    0.000    0.001    0.000 sre_compile.py:759(compile)
+        9    0.000    0.000    0.000    0.000 {method 'search' of 're.Pattern' objects}
+      160    0.000    0.000    0.000    0.000 mypyc_black.py:1139(<genexpr>)
+        4    0.000    0.000    0.000    0.000 sre_parse.py:951(parse_template)
+       93    0.000    0.000    0.000    0.000 sre_parse.py:249(match)
+       35    0.000    0.000    0.000    0.000 typing.py:701(__setattr__)
+        1    0.000    0.000    1.821    1.821 {built-in method builtins.exec}
+        6    0.000    0.000    0.001    0.000 sre_parse.py:919(parse)
+       96    0.000    0.000    0.000    0.000 enum.py:610(__hash__)
+       98    0.000    0.000    0.000    0.000 mypyc_black.py:2640(<genexpr>)
+       27    0.000    0.000    0.000    0.000 mypyc_black.py:2747(standalone_comment_split)
+        1    0.000    0.000    0.000    0.000 mypyc_black.py:1856(__attrs_post_init__)
+        6    0.000    0.000    0.000    0.000 sre_compile.py:536(_compile_info)
+     11/5    0.000    0.000    0.000    0.000 sre_compile.py:461(_get_literal_prefix)
+        9    0.000    0.000    0.000    0.000 typing.py:110(_type_check)
+        5    0.000    0.000    0.000    0.000 typing.py:600(__init__)
+       42    0.000    0.000    0.000    0.000 sre_parse.py:111(__init__)
+       35    0.000    0.000    0.000    0.000 typing.py:587(_is_dunder)
+      141    0.000    0.000    0.000    0.000 {method 'end' of 're.Match' objects}
+       46    0.000    0.000    0.012    0.000 mypyc_black.py:1821(visit_async_stmt)
+       17    0.000    0.000    0.000    0.000 mypyc_black.py:2792(is_type_comment)
+        3    0.000    0.000    0.000    0.000 typing.py:618(__getitem__)
+       55    0.000    0.000    0.000    0.000 sre_parse.py:286(tell)
+        3    0.000    0.000    0.000    0.000 typing.py:177(_subs_tvars)
+       12    0.000    0.000    0.000    0.000 mypyc_black.py:224(<genexpr>)
+        1    0.000    0.000    0.745    0.745 mypyc_black.py:838(lib2to3_parse)
+       16    0.000    0.000    0.000    0.000 mypyc_black.py:1337(is_triple_quoted_string)
+       17    0.000    0.000    0.000    0.000 pytree.py:308(append_child)
+        6    0.000    0.000    0.000    0.000 enum.py:836(__and__)
+       12    0.000    0.000    0.000    0.000 enum.py:284(__call__)
+       75    0.000    0.000    0.000    0.000 sre_parse.py:160(__len__)
+       10    0.000    0.000    0.000    0.000 sre_parse.py:224(__init__)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:276(_optimize_charset)
+        5    0.000    0.000    0.000    0.000 sre_compile.py:492(_get_charset_prefix)
+       13    0.000    0.000    0.000    0.000 sre_parse.py:84(opengroup)
+       57    0.000    0.000    0.000    0.000 sre_parse.py:172(append)
+       12    0.000    0.000    0.000    0.000 sre_parse.py:343(_escape)
+        3    0.000    0.000    0.000    0.000 mypyc_black.py:223(supports_feature)
+        8    0.000    0.000    0.000    0.000 sre_parse.py:408(_uniq)
+        2    0.000    0.000    0.000    0.000 typing.py:757(__getitem_inner__)
+       12    0.000    0.000    0.000    0.000 enum.py:526(__new__)
+        6    0.000    0.000    0.000    0.000 sre_compile.py:598(_code)
+       38    0.000    0.000    0.000    0.000 sre_parse.py:81(groups)
+        5    0.000    0.000    0.000    0.000 typing.py:162(_collect_type_vars)
+        1    0.000    0.000    0.000    0.000 typing.py:806(__new__)
+        5    0.000    0.000    0.000    0.000 typing.py:630(copy_with)
+        6    0.000    0.000    0.000    0.000 {built-in method _sre.compile}
+        1    0.000    0.000    0.000    0.000 mypyc_black.py:3372(<setcomp>)
+        1    0.000    0.000    0.000    0.000 mypyc_black.py:3431(get_future_imports)
+       25    0.000    0.000    0.000    0.000 sre_compile.py:65(_combine_flags)
+        7    0.000    0.000    0.000    0.000 typing.py:652(__eq__)
+        1    0.000    0.000    0.000    0.000 mypyc_black.py:1661(__init__)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:411(_mk_bitmap)
+        9    0.000    0.000    0.000    0.000 sre_parse.py:168(__setitem__)
+        6    0.000    0.000    0.000    0.000 sre_parse.py:960(addgroup)
+        1    0.000    0.000    0.074    0.074 mypyc_black.py:3369(detect_target_versions)
+       12    0.000    0.000    0.000    0.000 sre_compile.py:595(isstring)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:416(parent)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1009(_handle_fromlist)
+        1    0.000    0.000    0.000    0.000 __init__.py:1221(getLogger)
+        8    0.000    0.000    0.000    0.000 enum.py:355(<genexpr>)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:413(<listcomp>)
+        7    0.000    0.000    0.000    0.000 sre_compile.py:423(_simple)
+        6    0.000    0.000    0.000    0.000 sre_parse.py:76(__init__)
+       13    0.000    0.000    0.000    0.000 sre_parse.py:96(closegroup)
+        6    0.000    0.000    0.000    0.000 sre_parse.py:903(fix_flags)
+        1    0.000    0.000    1.821    1.821 <string>:1(<module>)
+        4    0.000    0.000    0.000    0.000 re.py:297(_compile_repl)
+       14    0.000    0.000    0.000    0.000 typing.py:610(<genexpr>)
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.hasattr}
+       17    0.000    0.000    0.000    0.000 {built-in method builtins.ord}
+        1    0.000    0.000    0.059    0.059 mypyc_black.py:3020(normalize_fmt_off)
+        2    0.000    0.000    0.000    0.000 __init__.py:212(_acquireLock)
+        1    0.000    0.000    0.000    0.000 parse.py:106(setup)
+        3    0.000    0.000    0.000    0.000 {built-in method builtins.all}
+        1    0.000    0.000    0.000    0.000 mypyc_black.py:194(__init__)
+        1    0.000    0.000    0.000    0.000 mypyc_black.py:765(<setcomp>)
+        1    0.000    0.000    0.000    0.000 mypyc_black.py:800(get_grammars)
+        2    0.000    0.000    0.000    0.000 mypyc_black.py:1381(contains_multiline_strings)
+        1    0.000    0.000    0.000    0.000 mypyc_black.py:1546(__init__)
+        1    0.000    0.000    0.000    0.000 __init__.py:1605(getEffectiveLevel)
+        1    0.000    0.000    0.000    0.000 __init__.py:1930(getLogger)
+        1    0.000    0.000    0.000    0.000 enum.py:354(__iter__)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:249(_compile_charset)
+       16    0.000    0.000    0.000    0.000 sre_compile.py:453(_get_iscased)
+        4    0.000    0.000    0.000    0.000 sre_parse.py:295(_class_escape)
+        3    0.000    0.000    0.000    0.000 typing.py:196(_check_generic)
+        1    0.000    0.000    0.000    0.000 typing.py:319(__hash__)
+        8    0.000    0.000    0.000    0.000 typing.py:626(<genexpr>)
+        3    0.000    0.000    0.000    0.000 typing.py:769(<genexpr>)
+       13    0.000    0.000    0.000    0.000 typing.py:890(cast)
+        1    0.000    0.000    0.000    0.000 driver.py:32(__init__)
+        5    0.000    0.000    0.000    0.000 {method 'find' of 'bytearray' objects}
+        1    0.000    0.000    0.000    0.000 {method 'translate' of 'bytearray' objects}
+        1    0.000    0.000    0.000    0.000 {method 'rpartition' of 'str' objects}
+        2    0.000    0.000    0.000    0.000 {method 'acquire' of '_thread.RLock' objects}
+        1    0.000    0.000    0.000    0.000 mypyc_black.py:1846(visit_ENDMARKER)
+        1    0.000    0.000    0.000    0.000 mypyc_black.py:3901(can_be_split)
+        2    0.000    0.000    0.000    0.000 __init__.py:221(_releaseLock)
+        4    0.000    0.000    0.000    0.000 typing.py:314(__eq__)
+        1    0.000    0.000    0.000    0.000 parse.py:74(__init__)
+        3    0.000    0.000    0.000    0.000 {built-in method builtins.callable}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.chr}
+        2    0.000    0.000    0.000    0.000 {method 'release' of '_thread.RLock' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        3    0.000    0.000    0.000    0.000 typing.py:173(<listcomp>)
+        2    0.000    0.000    0.000    0.000 typing.py:778(<genexpr>)
+
+
