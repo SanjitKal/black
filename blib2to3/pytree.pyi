@@ -1,7 +1,7 @@
 # Stubs for lib2to3.pytree (Python 3.6)
 
 import sys
-from typing import Any, Callable, Dict, Iterator, List, Optional, Text, Tuple, TypeVar, Union
+from typing import Any, Callable, Dict, Iterator, List, Optional, Text, Tuple, TypeVar, Union, Set
 
 from blib2to3.pgen2.grammar import Grammar
 
@@ -49,6 +49,7 @@ class Node(Base):
     def set_child(self, i: int, child: _NL) -> None: ...
     def insert_child(self, i: int, child: _NL) -> None: ...
     def append_child(self, child: _NL) -> None: ...
+    used_names: Optional[Set[Text]]
 
 class Leaf(Base):
     lineno: int
@@ -59,6 +60,7 @@ class Leaf(Base):
     # bolted on attributes by Black
     bracket_depth: int
     opening_bracket: Leaf
+    used_names: Optional[Set[Text]]
 
 def convert(gr: Grammar, raw_node: _RawNode) -> _NL: ...
 

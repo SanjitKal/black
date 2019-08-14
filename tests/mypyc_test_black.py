@@ -30,8 +30,6 @@ from click.testing import CliRunner
 import mypyc_black
 from mypyc_black import Feature, TargetVersion
 
-from timeit import default_timer as timer
-
 try:
     import blackd
     from aiohttp.test_utils import TestClient, TestServer
@@ -140,19 +138,7 @@ class BlackRunner(CliRunner):
 
 
 class BlackTestCase(unittest.TestCase):
-    # test timing logging
-    def setUp(self):
-        self.start_time = timer()
-
-    def tearDown(self):
-        elapsed = timer() - self.start_time # in seconds
-        with open("noncompiled_timing_results.txt", "a") as f:
-            f.write(str(elapsed) + "\n")
-        with open("test_names.txt", "a") as f:
-            f.write(self._testMethodName + "\n")
-
     def assertFormatEqual(self, expected: str, actual: str) -> None:
-        start_time = timer()
         if actual != expected and not os.environ.get("SKIP_AST_PRINT"):
             bdv: mypyc_black.DebugVisitor[Any]
             mypyc_black.out("Expected tree:", fg="green")
